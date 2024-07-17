@@ -1,0 +1,41 @@
+.tagList {
+    color: white;
+    font-size: 32px;
+    font-weight: 800;
+    padding: 5px;
+    width: 300px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.category {
+    width: 94%;
+    margin-left: 3%;
+}
+
+.cardsContainer {    
+    display: flex;
+    flex-direction: row;
+    gap: 48px;
+    overflow-x: scroll;
+
+    padding-bottom: 16px;
+}
+
+
+@media (max-width: 768px) {
+
+    .category {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cardsContainer {
+        width: 95%;
+        scrollbar-color:  #2271D1 #2271D12B; 
+
+    }
+    
+}
+

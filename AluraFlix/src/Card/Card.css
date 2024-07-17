@@ -1,0 +1,49 @@
+.CardContainer {
+    flex: 0 0 30%;
+
+    border-style: solid;
+    border-width: 5px;
+    box-shadow: inset 0px 0px 17px 8px #6BD1FF;
+
+    border-radius: 15px;
+}
+
+.imgCard {
+    height: 380px;
+    background-position: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-blend-mode: screen;
+    z-index: -1;
+    position: relative;
+}
+
+.BotonesCard{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.buttonsCards {
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+
+@media (max-width: 768px) {
+    .CardContainer {
+        flex: 0 0 45%;
+    }
+
+    .imgCard {
+        height: 180px;
+    }
+    
+}
+
+@media (max-width: 425px) {
+    .CardContainer {
+        flex: 0 0 95%;
+    }
+}

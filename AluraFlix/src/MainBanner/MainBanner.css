@@ -1,0 +1,98 @@
+.banner {
+    margin-top: 125px;
+    height: 1100px;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: screen;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    justify-content: center;
+    gap: 64px;
+    margin-top: 10%;
+    justify-content: space-between;
+
+    align-items: center;
+
+}
+
+.player {
+    border: solid 5px #6BD1FF;
+    box-shadow: 0px 0px 17px 8px #6BD1FF;
+    border-radius: 15px;
+    height: fit-content;
+
+    height: 315px;
+    width: 560px;
+
+    
+}
+
+.texto{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+
+.tag{
+    font-size: 48px;
+    font-weight: 800;
+    color: white;
+    width: max-content;
+    padding: 5px 15px;
+    border-radius: 15px;
+    margin-bottom: 32px;
+}
+
+.title {
+    font-size: 46px;
+    font-weight: 400;
+    color: #F5F5F5;
+}
+.desc {
+    font-size: 18px;
+    font-weight: 300;
+    color: #F5F5F5;
+}
+
+@media (max-width: 768px) {
+    .banner {
+        height: 500px;
+    }
+
+    .player {
+        width: 40%;
+    }
+    
+    .texto{
+        width: 40%;
+    }
+
+
+    .tag{
+        font-size: 32px;
+    }
+    
+    .title {
+        font-size: 32px;
+    }
+    .desc {
+        font-size: 18px;
+    }
+}
+
+
+@media (max-width: 425px) {
+    .banner {
+        display: none;
+    }
+}
